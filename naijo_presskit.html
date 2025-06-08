@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <title>NAIJO - Presskit</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section {
+            width: 100%;
+            max-width: 960px;
+            padding: 20px 0;
+            position: relative;
+        }
+        .pdf-frame {
+            width: 100%;
+            height: 1200px;
+            border: none;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+        }
+        .overlay-link {
+            position: absolute;
+            display: inline-block;
+            text-decoration: none;
+            z-index: 2;
+        }
+        .insta-link {
+            bottom: 8%;
+            right: 6%;
+            width: 18%;
+            height: 5%;
+        }
+        .playbook-link {
+            top: 65%;
+            left: 0;
+            width: 100%;
+            height: 35%;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <iframe class="pdf-frame" src="NAIJO - Presskit.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf"></iframe>
+    </div>
+    <div class="section video-container">
+        <video autoplay loop muted playsinline>
+            <source src="NAIJO - Presskit.mp4" type="video/mp4">
+            El teu navegador no suporta vídeos incrustats.
+        </video>
+        <a class="overlay-link insta-link" href="https://www.instagram.com/naijodj" target="_blank" title="@NAIJODJ"></a>
+        <a class="overlay-link playbook-link" href="https://www.playbook.com/s/ojoxojo/MCEqXGGGyEQH5yPwwzk68Jhy" target="_blank" title="Descarga media aquí"></a>
+    </div>
+</body>
+</html>
